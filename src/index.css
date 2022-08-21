@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+:root {
+  --white: #fff;
+  --red: #FF636C;
+  --blue-dark: #241641;
+  --grey: #7E7E7E;
+  --black: #2A2A2E;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(191.14deg, #2A2A2E -5.44%, #2B125A 52.05%, #000000 112.41%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
