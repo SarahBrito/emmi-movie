@@ -6,12 +6,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 :root {
   --white: #fff;
   --red: #FF636C;
   --blue-dark: #241641;
-  --grey: #7E7E7E;
+  --grey: #828282;
   --black: #2A2A2E;
 }
 
@@ -22,10 +21,10 @@ a {
 }
 
 body {
-  background: linear-gradient(191.14deg, #2A2A2E -5.44%, #2B125A 52.05%, #000000 112.41%);
+  background: linear-gradient(360deg, #2A2A2E -5.44%, #2B125A 52.05%, #000000 112.41%);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 h1 {
