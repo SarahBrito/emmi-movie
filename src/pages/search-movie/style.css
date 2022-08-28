@@ -1,0 +1,36 @@
+.search-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    margin-top: 8rem;
+    gap: 4rem;
+}
+
+.search-result__title {
+    color: var(--white);
+}
+
+.search-result__title span {
+    color: var(--red);
+    text-transform: capitalize;
+}
+
+.movie-details__button-home {
+    background: #000;
+    color: var(--red);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+.movie-details__button-home:hover {
+    background: var(--red);
+    color: var(--white);
+    transform: scale(1.1);
+}

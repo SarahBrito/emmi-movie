@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useNavigate } from 'react-router-dom';
 import { API_KEY, API_URL } from '../../key';
 import { FaStar, FaArrowLeft } from "react-icons/fa";
 
 import '../info-movie/style.css'
 
-function Details() {
 
+function Details() {
+   
+    const navigate = useNavigate()
     const {id} = useParams()
     const [movie, setMovie] = useState({})
 
@@ -47,10 +49,8 @@ function Details() {
                     <span className='movie-details__sinopse'>{movie.overview}</span>
                     
                     <div className="movie-details__button">
-                        <Link className='movie-details__button-home' to={'/'}> <FaArrowLeft /> Home</Link>
+                        <button className='movie-details__button-back' onClick={() => navigate(-1)}> <FaArrowLeft /> Voltar</button>
                     </div>
-
-                    
                 </div>
             </div>           
         </div> 

@@ -21,6 +21,7 @@ a {
 }
 
 body {
+  background: #2B125A;
   background: linear-gradient(360deg, #2A2A2E -5.44%, #2B125A 52.05%, #000000 112.41%);
   background-repeat: no-repeat;
   background-size: cover;
