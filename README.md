@@ -11,6 +11,15 @@
 A aplicação consome a API do TMDB, listando filmes e mostrando os detalhes dos filmes selecionados.
 
 <br><br>
+
+# Status do Projeto
+
+<h2 align="center"> 
+	🚧  Em construção...  🚧
+</h2>
+
+<br><br>
+
 # Features
 
 - [x] Listagem de filme
