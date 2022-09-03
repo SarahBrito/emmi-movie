@@ -35,7 +35,8 @@ function Details() {
             style={{
                 backgroundImage: `url(https://image.tmdb.org/t/p/original${movie.backdrop_path})`,
                 backgroundSize: "cover",
-                backgroundPosition: "center"
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat"
             }}
         >
             <div className="movie-details__container">
