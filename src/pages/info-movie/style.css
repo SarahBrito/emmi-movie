@@ -143,8 +143,16 @@
 }
 
 @media(max-width: 900px)  {
+
+    .movie-details__container {
+        min-height: auto;
+    }
     .movie-details__poster {
         width: 250px;
+    }
+
+    .movie-details__sinopse {
+        color: red;
     }
 
 }
