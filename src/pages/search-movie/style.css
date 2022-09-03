@@ -8,6 +8,7 @@
     align-items: center;
     padding: 5rem 0;
     gap: 4rem;
+    text-align: center;
 }
 
 .search-result__title {
