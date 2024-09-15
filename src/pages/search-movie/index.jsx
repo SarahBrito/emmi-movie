@@ -21,7 +21,7 @@ function Search () {
         <h1 className='search-result__title'>
             Resultados para: <span>{search}</span>
         </h1>
-        <Link className='movie-details__button-home' to={'/'}> <MdHome size={35}/></Link>
+        {/* <Link className='movie-details__button-home' to={'/'}> <MdHome size={35}/></Link> */}
         <div className="movies__container">
             <MovieCard movies={movies}/>
         </div>

@@ -64,13 +64,13 @@ function Details () {
           </div>
           <span className='movie-details__sinopse'>{movie.overview}</span>
                     
-          <div className="movie-details__button">
+          {/* <div className="movie-details__button">
             <button 
               className='movie-details__button-back' 
               onClick={() => navigate(-1)}> 
               <FaArrowLeft /> Back
             </button>
-          </div>
+          </div> */}
         </div>
       </div>           
     </div> 
